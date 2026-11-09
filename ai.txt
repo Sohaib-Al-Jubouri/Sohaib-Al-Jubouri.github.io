@@ -1,0 +1,8 @@
+# ai.txt — AI training policy for this website
+User-agent: *
+Disallow: /
+
+The content of this website is the personal work of Sohaib Al-Jubouri.
+It is not licensed for AI model training, machine learning, or inclusion
+in AI datasets. Do not crawl, scrape, or reproduce this content for
+artificial intelligence purposes.
