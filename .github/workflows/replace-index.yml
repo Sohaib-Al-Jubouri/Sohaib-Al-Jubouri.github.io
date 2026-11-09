@@ -10,11 +10,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Restore uploaded file and replace index.html
+      - name: Replace index.html with uploaded file
         run: |
           git config user.name "Sohaib-Al-Jubouri"
           git config user.email "suhaib.pilot@gmail.com"
-          git checkout 5df79c7 -- personal-website.html
           mv personal-website.html index.html
           git add -A
           git status --short
